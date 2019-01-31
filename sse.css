@@ -1,0 +1,169 @@
+#hd{
+    font-size: 2.9em;
+    color: rgb(248, 59, 11);
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1.5px 1.5px rgb(134, 22, 8);
+    }
+#sbtn{
+    position: relative;
+    right: 2.5%;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color:rgb(54, 200, 211) ;
+    font-family: 'Charm', cursive;
+    font-size: 1.3em;
+}
+.navbar-right{
+    margin-right: 1.8%;
+    padding-left: 3%;
+}
+body{/*https://data.whicdn.com/images/294447387/original.gif
+    http://cplab.com/wp-content/uploads/2017/05/Abstract-Linux-Backgrounds-1024x768.jpg;
+    https://cdn2.vectorstock.com/i/1000x1000/21/91/abstract-black-geometric-triangle-background-vector-8562191.jpg
+    http://www.rawit.dk/wp-content/uploads/2016/11/wallhaven-32859.jpg*/
+    height:100% ;
+    background-image:url(https://ak8.picdn.net/shutterstock/videos/18933008/thumb/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    color: azure;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    
+}
+.navbar {
+  
+   /* background: transparent;
+    border-color: transparent;*/
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-image: url(data:image/jpeg;base64,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);
+ }
+ 
+ .hcat{
+border: 0.2px solid gray;
+padding: 0.5em 1em;
+ }
+ .pad{
+     margin-top: 8em;
+ }
+ .hecat{
+    padding: 0.2em 1em;
+    
+    color: rgb(195, 9, 241) !important;
+    font-size: 1.3em;
+ }
+ a{
+     color: rgb(206, 132, 240);
+ }
+ .cat{
+     font-size: 1.3em;
+     line-height: 1.8em;
+}
+.carousel-inner>.item>img{
+    height: 300px !important;
+}
+#cp{
+    color: black;
+    text-align: center;
+}
+#cb{
+    margin-left: 30%;
+}
+.adc{
+    padding-top: 1%;
+}
+#cy{
+    
+    text-align: center;
+}
+.ddc{
+    border:1px solid #18A28D;
+    
+}
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+hr.style1 {
+	border:none;
+  height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 15px 20px -20px #333;
+  margin: -50px auto 10px;
+}
+#tn{
+    position: relative;
+    right: 89%;
+}
+.lll{
+    margin-top: 6%;
+}
+.llb{
+    margin-top: 8%;
+}
+.llc{
+    margin-top: 7%;
+}
+
+.nnn{
+    margin-left: 2.5em;
+    opacity: 0.5;
+}
+h2,h3{
+    color: rgb(218, 132, 21);
+    padding-bottom: 0.5em;
+    font-family: 'Playfair Display', serif;
+}
+.vvv{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(216, 162, 127);
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.raj{
+    
+    text-align: center;
+    height: 2.5em;
+    padding-top: 0.7em;
+    width: 100%;
+    padding-bottom: 0.5em;
+}
+.mnb{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    color: rgb(212, 20, 155);
+}
+.raj:hover{
+    font-size: 1.005em;
+    padding-left: 1.05em;
+}
+.adc:hover{
+    padding-left: 1.3em;
+}
+a:hover{
+    color:  rgb(185, 106, 209);
+    text-decoration: none;
+}
+.iii:hover{
+    height: 81px ;
+    width: 83px ;
+}
+.cccc:hover{
+    height: 45px;
+    width: 45px;
+}
+.navbar-inverse{
+    position: fixed;
+    background-image: url(http://www.rawit.dk/wp-content/uploads/2016/11/wallhaven-32859.jpg);
+}
